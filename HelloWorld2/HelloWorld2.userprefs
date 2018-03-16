@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{35D36A66-48C3-46DA-8171-DD97AB2F0CC0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld2/Demo.xaml.cs">
+    <Files>
+      <File FileName="HelloWorld2/App.xaml.cs" Line="12" Column="32" />
+      <File FileName="HelloWorld2/Demo.xaml" Line="9" Column="53" />
+      <File FileName="HelloWorld2/Demo.xaml.cs" Line="25" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld2.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F0C4375-146C-41FF-9647-67A37B1CFC9B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.HelloWorld2.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

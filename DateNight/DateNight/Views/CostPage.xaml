@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DateNight.Views.CostPage" Padding="20,100,20,20">
+	<ContentPage.Content>   
+        <StackLayout>
+        <Label Text="Total Cost of Date Night" FontSize="Large" XAlign="Center" />
+        <Image Source="CostTime.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label x:Name="lblTotalCost" FontSize="Large" XAlign="Center"  />    
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

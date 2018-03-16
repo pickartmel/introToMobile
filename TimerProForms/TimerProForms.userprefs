@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{ADCD244B-057D-4495-88A6-89C9186E584C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimerProForms/Custom/TimerLogic.cs">
+    <Files>
+      <File FileName="TimerProForms/App.xaml.cs" Line="19" Column="1" />
+      <File FileName="TimerProForms/Views/TimerPage.xaml" Line="19" Column="1" />
+      <File FileName="TimerProForms/Views/TimerPage.xaml.cs" Line="26" Column="39" />
+      <File FileName="TimerProForms/Custom/TimerLogic.cs" Line="5" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TimerProForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F0C4375-146C-41FF-9647-67A37B1CFC9B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TimerProForms.iOS>
+</Properties>

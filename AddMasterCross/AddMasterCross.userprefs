@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{1E901CBE-051F-4CD8-B7D9-88E4EB24B1B7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AddMasterCross/AddMasterCrossPage.xaml">
+    <Files>
+      <File FileName="AddMasterCross/App.xaml.cs" Line="12" Column="10" />
+      <File FileName="AddMasterCross/UIPage.xaml" Line="30" Column="1" />
+      <File FileName="AddMasterCross/UIPage.xaml.cs" Line="31" Column="1" />
+      <File FileName="AddMasterCross/AddMasterCrossPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AddMasterCross/packages.config" Line="1" Column="1" />
+      <File FileName="AddMasterCross/App.xaml" Line="7" Column="1" />
+      <File FileName="AddMasterCross/AddMasterCrossPage.xaml" Line="9" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AddMasterCross.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AddMasterCross.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F0C4375-146C-41FF-9647-67A37B1CFC9B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.AddMasterCross.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
