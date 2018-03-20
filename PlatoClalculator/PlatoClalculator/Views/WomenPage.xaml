@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PlatoClalculator.Views.WomenPage"    Padding="20,100,20,20">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calculate Perfect Age For Spouse" FontSize="Large" XAlign="Center"/>
+            <Label Text="Enter Your Current Age" Margin="0,50,0,0" XAlign="Center"/>
+            <Entry x:Name="txtWomansAge"/>
+            <Button x:Name="btnEnter" Text="Enter" Clicked="Handle_Clicked"/>
+            <Label x:Name="lblAgeOfMan" Margin="0,50,0,0"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

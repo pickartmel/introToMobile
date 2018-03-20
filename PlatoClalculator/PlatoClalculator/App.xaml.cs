@@ -7,8 +7,9 @@ namespace PlatoClalculator
         public App()
         {
             InitializeComponent();
-
-            MainPage = new PlatoClalculatorPage();
+            MainPage = new TabController();
+            //calcMan =  new PlatoClalculatorPage();
+            //calcWomen = new PlatoClalculator();
         }
 
         protected override void OnStart()
