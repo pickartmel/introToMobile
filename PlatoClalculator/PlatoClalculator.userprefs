@@ -2,14 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.PlatoClalculator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F0C4375-146C-41FF-9647-67A37B1CFC9B">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.PlatoClalculator.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="PlatoClalculator Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlatoClalculator/App.xaml.cs">
     <Files>
-      <File FileName="PlatoClalculator/Views/ManPage.xaml" Line="12" Column="60" />
-      <File FileName="PlatoClalculator/Views/ManPage.xaml.cs" Line="16" Column="1" />
-      <File FileName="PlatoClalculator/Views/WomenPage.xaml" Line="9" Column="58" />
-      <File FileName="PlatoClalculator/Views/WomenPage.xaml.cs" Line="24" Column="27" />
-      <File FileName="PlatoClalculator/App.xaml.cs" Line="2" Column="1" />
-      <File FileName="PlatoClalculator Status" />
+      <File FileName="PlatoClalculator/App.xaml.cs" Line="14" Column="53" />
+      <File FileName="PlatoClalculator/TabController.cs" Line="1" Column="1" />
+      <File FileName="PlatoClalculator/Views/WomenPage.xaml" Line="9" Column="60" />
+      <File FileName="PlatoClalculator/Views/WomenPage.xaml.cs" Line="34" Column="10" />
+      <File FileName="PlatoClalculator/Custom/CalcSpouseAge.cs" Line="32" Column="7" />
+      <File FileName="PlatoClalculator/Views/ManPage.xaml.cs" Line="34" Column="10" />
+      <File FileName="PlatoClalculator/Views/ManPage.xaml" Line="13" Column="99" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

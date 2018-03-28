@@ -7,6 +7,7 @@
             <Entry x:Name="txtWomansAge"/>
             <Button x:Name="btnEnter" Text="Enter" Clicked="Handle_Clicked"/>
             <Label x:Name="lblAgeOfMan" Margin="0,50,0,0"/>
+            <Button x:Name="Clear" Text="Clear" Margin="0,25,0,0" Clicked="ClearHandle_Clicked"/>
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

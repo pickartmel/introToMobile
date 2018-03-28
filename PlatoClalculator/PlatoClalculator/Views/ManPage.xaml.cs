@@ -26,5 +26,11 @@ namespace PlatoClalculator.Views
 
 
         }
+
+        void ClearHandle_Clicked(object sender, System.EventArgs e)
+        {
+            txtMansAge.Text = string.Empty;
+            lblAgeOfWoman.Text = string.Empty;
+        }
     }
 }
