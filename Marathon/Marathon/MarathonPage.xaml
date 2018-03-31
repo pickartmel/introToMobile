@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Marathon" 
+    x:Class="Marathon.MarathonPage"
+    Padding="10,20,10,10">
+    <StackLayout>
+	<Label Text="Race Results" FontSize="20" FontAttributes="Bold"/>
+    <ListView x:Name="ResultListView"   />
+    <Picker x:Name="RacePicker" Title="Please Pick a Race" BackgroundColor="Silver" HorizontalOptions="Center" SelectedIndexChanged="Race_SelectedIndexChanged"/>
+    </StackLayout>
+</ContentPage>
