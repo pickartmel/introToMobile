@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{C8C9D78D-55CE-43D8-B5FC-A3F3200BE2E7}|Default">
+  <MonoDevelop.Ide.ItemProperties.NFCresearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2F0C4375-146C-41FF-9647-67A37B1CFC9B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.NFCresearch.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="NFCresearch/Custom/ReadNFC.cs">
+    <Files>
+      <File FileName="NFCresearch/NFCresearchPage.xaml" Line="13" Column="1" />
+      <File FileName="NFCresearch/Custom/ReadNFC.cs" Line="11" Column="1" />
+      <File FileName="NFCresearch/Custom/WriteNFC.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.NFCresearch.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

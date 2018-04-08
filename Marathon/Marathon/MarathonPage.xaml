@@ -7,6 +7,7 @@
     <StackLayout>
 	<Label Text="Race Results" FontSize="20" FontAttributes="Bold"/>
     <ListView x:Name="ResultListView"   />
-    <Picker x:Name="RacePicker" Title="Please Pick a Race" BackgroundColor="Silver" HorizontalOptions="Center" SelectedIndexChanged="Race_SelectedIndexChanged"/>
+    <Picker x:Name="RacePicker" Title="Please Pick a Race" BackgroundColor="Silver" 
+        HorizontalOptions="Center" SelectedIndexChanged="Race_SelectedIndexChanged"/>
     </StackLayout>
 </ContentPage>
