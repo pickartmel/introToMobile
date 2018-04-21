@@ -50,5 +50,7 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>CustomGPS3</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please Let me use your GPS!</string>
 </dict>
 </plist>

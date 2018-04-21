@@ -127,7 +127,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\CustomGPS3\CustomGPS3.csproj">
-      <Project>{9B1C5DC2-91D4-499A-9466-89C6303461E0}</Project>
+      <Project>{685C4304-761E-4D89-A669-DE11DB95F662}</Project>
       <Name>CustomGPS3</Name>
     </ProjectReference>
   </ItemGroup>
