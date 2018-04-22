@@ -28,7 +28,7 @@ namespace NFCReadWriteToggle
 
         public void tglReadWriteOnlick(View view)
         {
-            txtTagContent.SetText(" ");
+            txtTagContent.SetText(' ');
         }
 
         public string getTextFromNdefRecord(NdefRecord ndefRecord)
@@ -37,12 +37,15 @@ namespace NFCReadWriteToggle
             try
             {
                 byte[] payload = ndefRecord.GetPayload();
-                String txtEncoding = ((payload[0) & 128) ==0) ? "UTF-8" :
+                String txtEncoding = ((payload[0] & 128) == 0) ? "UTF-8" : "UTF-16";
+                int languageSize = payload[0] & 0063;
+                tagContent = new string(payload, languageSize + 1,
+                                payload.Length - languageSize - 1, textEncoding);
             }
-            catch (System.Exception)
+            catch (System.Exception e)
             {
 
-                throw;
+                throw e;
             }
         }
     }
