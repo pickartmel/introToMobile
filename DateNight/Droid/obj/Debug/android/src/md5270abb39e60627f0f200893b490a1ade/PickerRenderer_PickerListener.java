@@ -5,7 +5,7 @@ public class PickerRenderer_PickerListener
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnClickListener
+		android.views.View_IOnClickListener
 {
 /** @hide */
 	public static final String __md_methods;

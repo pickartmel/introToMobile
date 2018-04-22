@@ -2,7 +2,7 @@ package md5270abb39e60627f0f200893b490a1ade;
 
 
 public class Platform_ModalContainer
-	extends android.view.ViewGroup
+	extends android.views.ViewGroup
 	implements
 		mono.android.IGCUserPeer
 {

@@ -5,10 +5,10 @@ public class EntryCellView
 	extends android.widget.LinearLayout
 	implements
 		mono.android.IGCUserPeer,
-		android.text.TextWatcher,
-		android.text.NoCopySpan,
-		android.view.View.OnFocusChangeListener,
-		android.widget.TextView.OnEditorActionListener
+		android.text.ITextWatcher,
+		android.text.INoCopySpan,
+		android.views.View_IOnFocusChangeListener,
+		android.widget.TextView_IOnEditorActionListener
 {
 /** @hide */
 	public static final String __md_methods;

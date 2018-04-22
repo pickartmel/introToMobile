@@ -5,7 +5,7 @@ public class ListViewRenderer
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer,
-		android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener
+		md5533bfcf241f238ea99ac1210cd2d56e8.SwipeRefreshLayout_IOnRefreshListener
 {
 /** @hide */
 	public static final String __md_methods;

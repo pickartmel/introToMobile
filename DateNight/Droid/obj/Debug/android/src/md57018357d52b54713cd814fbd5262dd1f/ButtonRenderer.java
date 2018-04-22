@@ -2,13 +2,13 @@ package md57018357d52b54713cd814fbd5262dd1f;
 
 
 public class ButtonRenderer
-	extends android.support.v7.widget.AppCompatButton
+	extends md535bdad051ab937b588770c20eabc9ab6.AppCompatButton
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnAttachStateChangeListener,
-		android.view.View.OnFocusChangeListener,
-		android.view.View.OnClickListener,
-		android.view.View.OnTouchListener
+		android.views.View_IOnAttachStateChangeListener,
+		android.views.View_IOnFocusChangeListener,
+		android.views.View_IOnClickListener,
+		android.views.View_IOnTouchListener
 {
 /** @hide */
 	public static final String __md_methods;

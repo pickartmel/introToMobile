@@ -5,7 +5,7 @@ public class GenericMenuClickListener
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.view.MenuItem.OnMenuItemClickListener
+		android.views.IMenuItemOnMenuItemClickListener
 {
 /** @hide */
 	public static final String __md_methods;

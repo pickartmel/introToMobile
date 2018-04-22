@@ -5,7 +5,7 @@ public class ButtonRenderer
 	extends md5270abb39e60627f0f200893b490a1ade.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnAttachStateChangeListener
+		android.views.View_IOnAttachStateChangeListener
 {
 /** @hide */
 	public static final String __md_methods;

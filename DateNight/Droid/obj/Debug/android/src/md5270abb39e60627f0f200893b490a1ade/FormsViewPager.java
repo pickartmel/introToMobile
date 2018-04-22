@@ -2,7 +2,7 @@ package md5270abb39e60627f0f200893b490a1ade;
 
 
 public class FormsViewPager
-	extends android.support.v4.view.ViewPager
+	extends md5f98f7bf2697d5beb40cb260b99797fc0.ViewPager
 	implements
 		mono.android.IGCUserPeer
 {

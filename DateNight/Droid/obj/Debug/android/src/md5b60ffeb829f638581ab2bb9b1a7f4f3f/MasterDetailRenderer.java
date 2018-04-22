@@ -2,10 +2,10 @@ package md5b60ffeb829f638581ab2bb9b1a7f4f3f;
 
 
 public class MasterDetailRenderer
-	extends android.support.v4.widget.DrawerLayout
+	extends md5533bfcf241f238ea99ac1210cd2d56e8.DrawerLayout
 	implements
 		mono.android.IGCUserPeer,
-		android.support.v4.widget.DrawerLayout.DrawerListener
+		md5533bfcf241f238ea99ac1210cd2d56e8.DrawerLayout_IDrawerListener
 {
 /** @hide */
 	public static final String __md_methods;

@@ -5,7 +5,7 @@ public class ViewCellRenderer_ViewCellContainer_LongPressGestureListener
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.view.GestureDetector.OnGestureListener
+		android.views.GestureDetector_IOnGestureListener
 {
 /** @hide */
 	public static final String __md_methods;

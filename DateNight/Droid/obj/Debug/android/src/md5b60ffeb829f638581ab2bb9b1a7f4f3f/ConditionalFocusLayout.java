@@ -5,7 +5,7 @@ public class ConditionalFocusLayout
 	extends android.widget.LinearLayout
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnTouchListener
+		android.views.View_IOnTouchListener
 {
 /** @hide */
 	public static final String __md_methods;

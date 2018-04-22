@@ -5,8 +5,8 @@ public class InnerGestureListener
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.view.GestureDetector.OnGestureListener,
-		android.view.GestureDetector.OnDoubleTapListener
+		android.views.GestureDetector_IOnGestureListener,
+		android.views.GestureDetector_IOnDoubleTapListener
 {
 /** @hide */
 	public static final String __md_methods;

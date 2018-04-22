@@ -2,7 +2,7 @@ package md5b60ffeb829f638581ab2bb9b1a7f4f3f;
 
 
 public class FrameRenderer_FrameDrawable
-	extends android.graphics.drawable.Drawable
+	extends android.graphics.drawables.Drawable
 	implements
 		mono.android.IGCUserPeer
 {

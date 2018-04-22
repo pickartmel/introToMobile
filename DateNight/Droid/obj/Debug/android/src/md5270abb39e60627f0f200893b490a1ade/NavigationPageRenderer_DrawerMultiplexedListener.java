@@ -5,7 +5,7 @@ public class NavigationPageRenderer_DrawerMultiplexedListener
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.support.v4.widget.DrawerLayout.DrawerListener
+		md5533bfcf241f238ea99ac1210cd2d56e8.DrawerLayout_IDrawerListener
 {
 /** @hide */
 	public static final String __md_methods;

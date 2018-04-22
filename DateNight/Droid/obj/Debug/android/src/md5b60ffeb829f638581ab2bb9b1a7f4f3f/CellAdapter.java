@@ -2,13 +2,13 @@ package md5b60ffeb829f638581ab2bb9b1a7f4f3f;
 
 
 public abstract class CellAdapter
-	extends android.widget.BaseAdapter
+	extends android.widget.BaseAdapter_1
 	implements
 		mono.android.IGCUserPeer,
-		android.widget.AdapterView.OnItemLongClickListener,
-		android.view.ActionMode.Callback,
-		android.widget.AdapterView.OnItemClickListener,
-		android.support.v7.view.ActionMode.Callback
+		android.widget.AdapterView_IOnItemLongClickListener,
+		android.views.ActionMode_ICallback,
+		android.widget.AdapterView_IOnItemClickListener,
+		md5575e059bdb73ff3be3c5a89f1027ad90.ActionMode_ICallback
 {
 /** @hide */
 	public static final String __md_methods;

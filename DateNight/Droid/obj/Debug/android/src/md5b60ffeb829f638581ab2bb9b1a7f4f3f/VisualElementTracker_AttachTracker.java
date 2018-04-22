@@ -5,7 +5,7 @@ public class VisualElementTracker_AttachTracker
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnAttachStateChangeListener
+		android.views.View_IOnAttachStateChangeListener
 {
 /** @hide */
 	public static final String __md_methods;

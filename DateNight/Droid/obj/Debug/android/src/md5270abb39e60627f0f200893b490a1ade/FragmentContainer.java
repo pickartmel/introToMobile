@@ -2,7 +2,7 @@ package md5270abb39e60627f0f200893b490a1ade;
 
 
 public class FragmentContainer
-	extends android.support.v4.app.Fragment
+	extends md566727013b91ff4251a2c67ecd559f753.Fragment
 	implements
 		mono.android.IGCUserPeer
 {

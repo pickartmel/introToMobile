@@ -5,7 +5,7 @@ public class CarouselPageRenderer
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.VisualElementRenderer_1
 	implements
 		mono.android.IGCUserPeer,
-		android.support.v4.view.ViewPager.OnPageChangeListener
+		md5f98f7bf2697d5beb40cb260b99797fc0.ViewPager_IOnPageChangeListener
 {
 /** @hide */
 	public static final String __md_methods;

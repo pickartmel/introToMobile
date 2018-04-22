@@ -5,7 +5,7 @@ public class NavigationPageRenderer
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.VisualElementRenderer_1
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnClickListener
+		android.views.View_IOnClickListener
 {
 /** @hide */
 	public static final String __md_methods;

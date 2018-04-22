@@ -5,7 +5,7 @@ public class TimePickerRenderer
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer,
-		android.app.TimePickerDialog.OnTimeSetListener
+		android.app.TimePickerDialog_IOnTimeSetListener
 {
 /** @hide */
 	public static final String __md_methods;

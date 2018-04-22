@@ -5,8 +5,8 @@ public class TabbedPageRenderer
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.VisualElementRenderer_1
 	implements
 		mono.android.IGCUserPeer,
-		android.support.design.widget.TabLayout.OnTabSelectedListener,
-		android.support.v4.view.ViewPager.OnPageChangeListener
+		md5a38f23f39c909ee95c77ab5bcf4e7c7f.TabLayout_IOnTabSelectedListener,
+		md5f98f7bf2697d5beb40cb260b99797fc0.ViewPager_IOnPageChangeListener
 {
 /** @hide */
 	public static final String __md_methods;

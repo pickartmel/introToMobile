@@ -2,7 +2,7 @@ package md5b60ffeb829f638581ab2bb9b1a7f4f3f;
 
 
 public abstract class VisualElementRenderer_1
-	extends com.xamarin.forms.platform.android.FormsViewGroup
+	extends md5847bc4da4ffbf304c5834cc3f64d8e06.FormsViewGroup
 	implements
 		mono.android.IGCUserPeer
 {

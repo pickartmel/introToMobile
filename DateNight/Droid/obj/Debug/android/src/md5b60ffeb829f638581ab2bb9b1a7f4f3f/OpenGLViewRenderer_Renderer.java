@@ -5,7 +5,7 @@ public class OpenGLViewRenderer_Renderer
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.opengl.GLSurfaceView.Renderer
+		android.opengl.GLSurfaceView_IRenderer
 {
 /** @hide */
 	public static final String __md_methods;

@@ -5,7 +5,7 @@ public class ButtonRenderer_ButtonTouchListener
 	extends java.lang.Object
 	implements
 		mono.android.IGCUserPeer,
-		android.view.View.OnTouchListener
+		android.views.View_IOnTouchListener
 {
 /** @hide */
 	public static final String __md_methods;

@@ -5,7 +5,7 @@ public class SearchBarRenderer
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer,
-		android.widget.SearchView.OnQueryTextListener
+		android.widget.SearchView_IOnQueryTextListener
 {
 /** @hide */
 	public static final String __md_methods;

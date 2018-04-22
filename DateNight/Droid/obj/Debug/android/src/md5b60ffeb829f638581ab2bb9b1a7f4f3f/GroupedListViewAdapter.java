@@ -5,7 +5,7 @@ public class GroupedListViewAdapter
 	extends md5b60ffeb829f638581ab2bb9b1a7f4f3f.ListViewAdapter
 	implements
 		mono.android.IGCUserPeer,
-		android.widget.SectionIndexer
+		android.widget.ISectionIndexer
 {
 /** @hide */
 	public static final String __md_methods;

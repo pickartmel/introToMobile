@@ -5,7 +5,7 @@ public class SwitchRenderer
 	extends md5270abb39e60627f0f200893b490a1ade.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer,
-		android.widget.CompoundButton.OnCheckedChangeListener
+		android.widget.CompoundButton_IOnCheckedChangeListener
 {
 /** @hide */
 	public static final String __md_methods;
