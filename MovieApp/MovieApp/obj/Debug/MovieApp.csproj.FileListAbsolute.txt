@@ -16,3 +16,10 @@
 /Users/student/Projects/MovieApp/MovieApp/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/student/Projects/MovieApp/MovieApp/obj/Debug/MovieApp.dll
 /Users/student/Projects/MovieApp/MovieApp/obj/Debug/MovieApp.pdb
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLite-net.dll
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLite.Net.dll
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLitePCLRaw.core.dll
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLite-net.pdb
+/Users/student/Projects/MovieApp/MovieApp/bin/Debug/SQLite-net.xml

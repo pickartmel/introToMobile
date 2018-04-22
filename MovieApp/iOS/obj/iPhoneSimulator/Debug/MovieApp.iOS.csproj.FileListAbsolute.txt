@@ -57,3 +57,5 @@
 /Users/student/Projects/MovieApp/iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.csproj.CoreCompileInputs.cache
 /Users/student/Projects/MovieApp/iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.exe
 /Users/student/Projects/MovieApp/iOS/obj/iPhoneSimulator/Debug/MovieApp.iOS.pdb
+/Users/student/Projects/MovieApp/iOS/bin/iPhoneSimulator/Debug/SQLite.Net.dll
+/Users/student/Projects/MovieApp/iOS/bin/iPhoneSimulator/Debug/SQLite.Net.Platform.XamarinIOS.Unified.dll

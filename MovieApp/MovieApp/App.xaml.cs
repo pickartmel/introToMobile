@@ -7,11 +7,25 @@ namespace MovieApp
 {
     public partial class App : Application
     {
-        public static List<Movie> MovieList;
+        // public static List<Movie> MovieList;s
+        static Database _movieDB;
+
+        public static Database SQLiteDB
+        {
+            get
+            {
+                if(_movieDB==null)
+                {
+                    _movieDB = new Database();
+                }
+                return _movieDB;
+            }
+        }
         public App()
         {
+            
             InitializeComponent();
-            MovieList = new List<Movie>();//initialize it when the code runs
+          //  MovieList = new List<Movie>();//initialize it when the code runs
             MainPage = new TabLayout();
         }
        

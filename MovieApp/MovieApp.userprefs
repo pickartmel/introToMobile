@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{AFFC3002-9DE4-4EE4-AF32-98C46AABF4A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/Views/FindPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Custom/SQLite_iOS.cs">
     <Files>
-      <File FileName="MovieApp/Views/AddPage.xaml" Line="13" Column="88" />
-      <File FileName="MovieApp/Views/AddPage.xaml.cs" Line="24" Column="48" />
-      <File FileName="MovieApp/App.xaml.cs" Line="14" Column="77" />
-      <File FileName="MovieApp/Views/FindPage.xaml.cs" Line="20" Column="69" />
-      <File FileName="MovieApp/Models/Movie.cs" Line="8" Column="43" />
+      <File FileName="MovieApp/Custom/Database.cs" Line="40" Column="2" />
+      <File FileName="Droid/Custom/SQLite_Droid.cs" Line="29" Column="2" />
+      <File FileName="MovieApp/App.xaml.cs" Line="21" Column="33" />
+      <File FileName="MovieApp/Models/Movie.cs" Line="10" Column="1" />
+      <File FileName="MovieApp/Views/AddPage.xaml.cs" Line="22" Column="46" />
+      <File FileName="MovieApp/Views/FindPage.xaml.cs" Line="25" Column="62" />
+      <File FileName="iOS/Custom/SQLite_iOS.cs" Line="25" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -13,7 +15,9 @@
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.MovieApp.iOS>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/student/Projects/MovieApp/iOS/Custom/SQLite_iOS.cs" relfile="iOS/Custom/SQLite_iOS.cs" line="25" column="12" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

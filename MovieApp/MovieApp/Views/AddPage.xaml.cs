@@ -18,7 +18,8 @@ namespace MovieApp.Views
             var NewMovie = new Movie();
             NewMovie.Title = txtMovieTitle.Text;
             NewMovie.Rating = txtMovieRating.Text;
-            App.MovieList.Add(NewMovie);
+       //     App.MovieList.Add(NewMovie);
+            App.SQLiteDB.SaveMovie(NewMovie);
 
             txtMovieTitle.Text = string.Empty;
             txtMovieRating.Text = string.Empty;
