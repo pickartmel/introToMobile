@@ -9,7 +9,7 @@ using Xamarin.Forms;
 [assembly: Dependency(typeof(SQLite_iOS))]
 namespace MovieApp.iOS.Custom
 {
-    public class SQLite_iOS :ISQLite 
+    public class SQLite_iOS : ISQLite
     {
         public SQLite_iOS()
         {
