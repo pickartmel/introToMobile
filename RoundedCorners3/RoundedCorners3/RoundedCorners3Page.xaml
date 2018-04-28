@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:RoundedCorners3.Custom" 
+    x:Class="RoundedCorners3.RoundedCorners3Page"
+    BackgroundColor="Firebrick"
+    >
+	<local:ImageBox Source="BartSimpson" />
+</ContentPage>
