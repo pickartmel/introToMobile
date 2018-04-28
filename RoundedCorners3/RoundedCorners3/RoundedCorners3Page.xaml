@@ -5,5 +5,6 @@
     x:Class="RoundedCorners3.RoundedCorners3Page"
     BackgroundColor="Firebrick"
     >
-	<local:ImageBox Source="BartSimpson" />
+
+    <local:ImageBox Source="Rick1" />
 </ContentPage>
