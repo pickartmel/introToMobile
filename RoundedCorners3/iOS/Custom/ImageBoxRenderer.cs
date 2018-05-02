@@ -39,7 +39,7 @@ namespace RoundedCorners3.iOS.Custom
         {
             try
             {
-                Control.Layer.CornerRadius = 10.0f;
+                Control.Layer.CornerRadius = 25;
                 Control.Layer.MasksToBounds = false;
                 Control.Layer.BorderColor = Xamarin.Forms.Color.FromHex("1B1D24").ToCGColor();
                 Control.Layer.BorderWidth = 1;

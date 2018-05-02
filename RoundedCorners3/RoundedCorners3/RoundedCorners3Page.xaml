@@ -5,6 +5,7 @@
     x:Class="RoundedCorners3.RoundedCorners3Page"
     BackgroundColor="Firebrick"
     >
-
-    <local:ImageBox Source="Rick1" />
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <local:ImageBox Source="Rick1" />
+    </StackLayout>
 </ContentPage>
