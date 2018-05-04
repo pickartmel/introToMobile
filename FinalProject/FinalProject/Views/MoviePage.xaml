@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="FinalProject.Views.MoviePage"
+    Padding="20,20,20,20" 
+    Title="Movie Knowledge">
+	<ContentPage.Content>
+    <ScrollView>
+        <Grid>
+        </Grid>
+    <Label Text="content"/>
+   <Button Text="Submit and goto Music Page" x:Name="btnGoToMusicPage" Clicked="Handle_Clicked"/>
+     </ScrollView>
+  
+	</ContentPage.Content>
+</ContentPage>

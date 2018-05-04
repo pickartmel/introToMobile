@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalProject.Views.WelcomePage" Padding="20,100,20,20" Title="Guess Your Age">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Can We Guess Your REAL Age? " VerticalOptions="Center" HorizontalOptions="Center" FontSize="Large" />
+            <Label Text="Click the button to find out" />
+            <Button Text="Find Out Now" x:Name="btnToMoviePage" Clicked="Handle_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

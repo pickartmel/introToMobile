@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalProject.Views.MusicPage" Padding="20,100,20,20" Title="Music Knowledge">
+	<ContentPage.Content>
+    <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+      
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+      <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>
+     <Label Text="This is the Music Page"/>     <Button Text="Submit and goto Results Page" x:Name="btnGoToResultsPage" Clicked="Handle_Clicked"/> 
+       
+     </ScrollView>
+	</ContentPage.Content>
+</ContentPage>
