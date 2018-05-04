@@ -6,11 +6,22 @@
     Title="Movie Knowledge">
 	<ContentPage.Content>
     <ScrollView>
+        <StackLayout>
         <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/> <!-- 0 -->
+                 <ColumnDefinition Width="*"/> <!-- 1 -->
+                  <ColumnDefinition Width="*"/> <!-- 2 -->
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/><!-- 0 -->
+                    <RowDefinition Height="*"/> <!-- 1 -->
+                    <RowDefinition Height="*"/> <!-- 2 -->
+            </Grid.RowDefinitions>
         </Grid>
     <Label Text="content"/>
    <Button Text="Submit and goto Music Page" x:Name="btnGoToMusicPage" Clicked="Handle_Clicked"/>
-     </ScrollView>
-  
+    </StackLayout> 
+  </ScrollView>
 	</ContentPage.Content>
 </ContentPage>
