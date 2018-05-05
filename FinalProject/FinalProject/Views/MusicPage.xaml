@@ -1,79 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalProject.Views.MusicPage" Padding="20,100,20,20" Title="Music Knowledge">
 	<ContentPage.Content>
-    <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
-      
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-      <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>
-     <Label Text="This is the Music Page"/>     <Button Text="Submit and goto Results Page" x:Name="btnGoToResultsPage" Clicked="Handle_Clicked"/> 
-       
-     </ScrollView>
-	</ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Tap the Music you have heard"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/> <!-- 0 -->
+                        <ColumnDefinition Width="*"/><!-- 1 -->
+                        <ColumnDefinition Width="*"/><!-- 2 -->
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/> <!-- 0 -->
+                        <RowDefinition Height="*"/><!-- 1 -->
+                        <RowDefinition Height="*"/><!-- 2 -->
+                    </Grid.RowDefinitions>
+
+                    <Button Grid.Column="0" Grid.Row="0"  Text="When Im Gone" Clicked="WhenImGone_Handled"/>
+
+
+                    <Button Grid.Column="1" Grid.Row="0"  Text="Carry On" Clicked="CarryOn_Clicked"/>
+                    <Button Grid.Column="2" Grid.Row="0" Text="Sail" Clicked="Sail_Clicked" />
+
+                    <Button Grid.Column="0" Grid.Row="1" Text="Ignition" Clicked="Ignition_Clicked"/>
+                    <Button Grid.Column="1" Grid.Row="1" Text="Bring Me To Life" Clicked="BringMeToLife_Clicked"/>
+                    <Button Grid.Column="2" Grid.Row="1" Text="Stacys Mom" Clicked="StacysMom_Clicked" />
+
+                    <Button Grid.Column="0" Grid.Row="2" Text="Step By Step" Clicked="StepByStep_Clicked"/>
+                    <Button Grid.Column="1" Grid.Row="2" Text="Nothing Compares 2 U" Clicked="NothingCompares2U_Clicked"/>
+                    <Button Grid.Column="2" Grid.Row="2" Text="How am I Supposed to Live Witout You" Clicked="LiveWOYou_Clicked" />
+
+
+
+                </Grid>
+
+                <Label Text="Points: "/>
+                <Label x:Name="lblMusicPoints"/>
+                <Button Text="Submit and goto Results Page" x:Name="btnGoToResultsPage" Clicked="Handle_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

@@ -23,7 +23,7 @@ namespace FinalProject.Custom
 
         public string TotalAge()
         {
-            decimal decMovieAge;
+            decimal decMovieAge, decMusicAge;
             if(!Decimal.TryParse(MovieAge, out decMovieAge))
             {
                 if(!string.IsNullOrEmpty(MovieAge))
@@ -31,8 +31,15 @@ namespace FinalProject.Custom
                     throw new Exception("Did you see any of these movies?");
                 }
             }
+            if(!Decimal.TryParse(MusicAge, out decMusicAge))
+            {
+                if(!string.IsNullOrEmpty(MusicAge))
+                {
+                    throw new Exception("Did you see any of these movies?");
+                }
+            }
 
-            return (decMovieAge * 2).ToString();
+            return (((decMovieAge * 3) + (decMusicAge *3)) /2).ToString();
         }
     }
 }

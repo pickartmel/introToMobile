@@ -9,7 +9,7 @@ namespace FinalProject.Views
     {
         decimal newPoints;
         decimal currentPoints;
-        
+
         public MoviePage()
         {
             InitializeComponent();
@@ -17,13 +17,13 @@ namespace FinalProject.Views
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-           Navigation.PushAsync(new MusicPage());
+            Navigation.PushAsync(new MusicPage());
         }
 
         void IdentityTheif_Handled(object sender, System.EventArgs e)
         {
             decimal.TryParse(lblPoints.Text, out currentPoints);
-            newPoints = currentPoints +1 ;
+            newPoints = currentPoints + 1;
             lblPoints.Text = newPoints.ToString();
         }
 
@@ -44,30 +44,52 @@ namespace FinalProject.Views
         void VanillaSky_Clicked(object sender, System.EventArgs e)
         {
             decimal.TryParse(lblPoints.Text, out currentPoints);
-            newPoints = currentPoints + 1;
+            newPoints = currentPoints + 2;
             lblPoints.Text = newPoints.ToString();
         }
 
         void OldSchool_Clicked(object sender, System.EventArgs e)
         {
             decimal.TryParse(lblPoints.Text, out currentPoints);
-            newPoints = currentPoints + 1;
+            newPoints = currentPoints + 2;
             lblPoints.Text = newPoints.ToString();
         }
 
         void Matrix_Clicked(object sender, System.EventArgs e)
         {
             decimal.TryParse(lblPoints.Text, out currentPoints);
-            newPoints = currentPoints + 1;
+            newPoints = currentPoints + 2;
+            lblPoints.Text = newPoints.ToString();
+        }
+
+
+
+        private void DancesWolves_Clicked(object sender, EventArgs e)
+        {
+            decimal.TryParse(lblPoints.Text, out currentPoints);
+            newPoints = currentPoints + 3;
+            lblPoints.Text = newPoints.ToString();
+        }
+        private void Ghost_Clicked(object sender, EventArgs e)
+        {
+            decimal.TryParse(lblPoints.Text, out currentPoints);
+            newPoints = currentPoints + 3;
+            lblPoints.Text = newPoints.ToString();
+        }
+        private void Legend_Clicked(object sender, EventArgs e)
+        {
+            decimal.TryParse(lblPoints.Text, out currentPoints);
+            newPoints = currentPoints + 3;
             lblPoints.Text = newPoints.ToString();
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-           
+
             App.ageCalc.MovieAge = lblPoints.Text;
 
         }
+
     }
 }
