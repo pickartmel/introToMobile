@@ -61,5 +61,13 @@ namespace FinalProject.Views
             newPoints = currentPoints + 1;
             lblPoints.Text = newPoints.ToString();
         }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+           
+            App.ageCalc.MovieAge = lblPoints.Text;
+
+        }
     }
 }

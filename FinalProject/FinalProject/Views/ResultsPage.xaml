@@ -3,7 +3,7 @@
 	<ContentPage.Content>
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Label Text="Your Real Age is: " FontSize="Large"/>
-            <Label Text="35" x:Name="lblRealAge" FontSize="Large"/>
+            <Label Text="" x:Name="lblRealAge" FontSize="Large"/>
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

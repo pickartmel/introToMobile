@@ -1,17 +1,20 @@
 ﻿using Xamarin.Forms;
 using FinalProject.Views;
-using FinalProject; 
+using FinalProject;
+using FinalProject.Custom;
 
 namespace FinalProject
 {
     public partial class App : Application
     {
+        public static CalculateAge ageCalc;
         public App()
         {
             InitializeComponent();
 
             //  MainPage = new WelcomePage();
             MainPage = new NavigationPage(new WelcomePage());
+            ageCalc = new CalculateAge();
 
         }
 

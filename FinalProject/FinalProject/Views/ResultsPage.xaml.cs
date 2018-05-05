@@ -11,5 +11,19 @@ namespace FinalProject.Views
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            try
+            {
+                lblRealAge.Text = string.Empty;
+                lblRealAge.Text = App.ageCalc.TotalAge();
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Error", ex.Message, "Ok");
+            }
+        }
     }
 }

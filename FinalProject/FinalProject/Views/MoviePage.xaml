@@ -19,17 +19,23 @@
                     <RowDefinition Height="*"/> <!-- 1 -->
                     <RowDefinition Height="*"/> <!-- 2 -->
             </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0"  Source="IdentityThief" HorizontalOptions="Center" VerticalOptions="Center"/> <!-- Here is the problem -->
                 <Button Grid.Column="0" Grid.Row="0"  Text="IdentityTheif" Clicked="IdentityTheif_Handled"/>
+                    
+                
+                    
                 <Button Grid.Column="1" Grid.Row="0"  Text="Iron Man 3" Clicked="IronMan3_Clicked"/>
                 <Button Grid.Column="2" Grid.Row="0" Text="The Mummy" Clicked="Mummy_Clicked" />
 
                 <Button Grid.Column="0" Grid.Row="1"  Text="Vanilla Sky" Clicked="VanillaSky_Clicked"/>
                 <Button Grid.Column="1" Grid.Row="1"  Text="Old School" Clicked="OldSchool_Clicked"/>
                 <Button Grid.Column="2" Grid.Row="1" Text="The Matrix" Clicked="Matrix_Clicked" />
+
+                    
         </Grid>
 
     <Label Text="Points: "/>
-    <Label  x:Name="lblPoints"/>
+    <Label x:Name="lblPoints"/>
    <Button Text="Submit and goto Music Page" x:Name="btnGoToMusicPage" Clicked="Handle_Clicked"/>
     </StackLayout> 
   </ScrollView>
