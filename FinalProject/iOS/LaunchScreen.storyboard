@@ -1,27 +1,55 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
-	<dependencies>
-		<deployment identifier="iOS" />
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="EHf-IW-A2E">
-			<objects>
-				<viewController id="01J-lp-oVM" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="Llm-lL-Icb" />
-						<viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder" />
-			</objects>
-			<point key="canvasLocation" x="53" y="375" />
-		</scene>
-	</scenes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="197" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="mediaSplashScreen.png">
+                                <rect key="frame" x="0.0" y="20" width="405" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="guess.png" width="120" height="120"/>
+        <image name="Matrix.jpg" width="182" height="268"/>
+        <image name="OldSchool.jpg" width="182" height="268"/>
+        <image name="VanillaSky.jpg" width="182" height="268"/>
+        <image name="DancesWolves.jpg" width="182" height="268"/>
+        <image name="Ghost.jpg" width="182" height="268"/>
+        <image name="Legend.jpg" width="182" height="268"/>
+        <image name="IdentityThief.jpg" width="91" height="134"/>
+        <image name="IronMan3.jpg" width="91" height="134"/>
+        <image name="Mummy.jpg" width="91" height="134"/>
+        <image name="StacysMom.jpg" width="168" height="268"/>
+        <image name="BringMeToLife.jpg" width="182" height="268"/>
+        <image name="CarryOn.jpg" width="182" height="268"/>
+        <image name="HowAmI.jpg" width="182" height="268"/>
+        <image name="Ignition.jpg" width="182" height="268"/>
+        <image name="ImGone.jpg" width="182" height="268"/>
+        <image name="SAIL.jpg" width="182" height="268"/>
+        <image name="StepByStep.jpg" width="182" height="268"/>
+        <image name="NothingCompares.png" width="182" height="268"/>
+        <image name="mediaSplashScreen.png" width="1920" height="1280"/>
+    </resources>
 </document>

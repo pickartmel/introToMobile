@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\guess.png" />
+    <BundleResource Include="Resources\mediaSplashScreen.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
