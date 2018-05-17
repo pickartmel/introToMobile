@@ -4,47 +4,68 @@
     x:Class="FinalProject.Views.MoviePage"
     Padding="20,20,20,20" 
     Title="Movie Knowledge">
-	<ContentPage.Content>
-    <ScrollView>
-        <StackLayout>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
                 <Label Text="Tap the Movies you have seen"/>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/> <!-- 0 -->
-                 <ColumnDefinition Width="*"/> <!-- 1 -->
-                  <ColumnDefinition Width="*"/> <!-- 2 -->
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/><!-- 0 -->
-                    <RowDefinition Height="*"/> <!-- 1 -->
-                    <RowDefinition Height="*"/> <!-- 2 -->
-            </Grid.RowDefinitions>
-                <Image Grid.Column="0" Grid.Row="0"  Source="IdentityThief" HorizontalOptions="Center" VerticalOptions="Center"/> <!-- Here is the problem -->
-                    <Label Grid.Column="0" Grid.Row="0"  Text="Identity Theif" />
-                    <Button Grid.Column="0" Grid.Row="0"  Text="Seen It" Clicked="IdentityTheif_Handled"/>
-                
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/> <!-- 0 -->
+                        <ColumnDefinition Width="*"/> <!-- 1 -->
+                        <ColumnDefinition Width="*"/> <!-- 2 -->
+                        
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="134"/> <!-- 0 -->
+                        <RowDefinition Height="0"/> <!-- 1 -->
+                        <RowDefinition Height="*"/> <!-- 2 -->
+                        <RowDefinition Height="134"/> <!-- 3 -->
+                        <RowDefinition Height="0"/><!-- 4 -->
+                        <RowDefinition Height="*"/><!-- 5 -->
+                        <RowDefinition Height="134"/> <!-- 6 -->
+                        <RowDefinition Height="0"/><!-- 7 -->
+                        <RowDefinition Height="*"/> <!-- 8 -->
+                     
 
-                    <Button Grid.Column="1" Grid.Row="0"  Text="Iron Man 3" Clicked="IronMan3_Clicked"/>
-                <Button Grid.Column="2" Grid.Row="0" Text="The Mummy" Clicked="Mummy_Clicked" />
-
-                <Button Grid.Column="0" Grid.Row="1" Text="Vanilla Sky" Clicked="VanillaSky_Clicked"/>
-                <Button Grid.Column="1" Grid.Row="1" Text="Old School" Clicked="OldSchool_Clicked"/>
-                <Button Grid.Column="2" Grid.Row="1" Text="The Matrix" Clicked="Matrix_Clicked" />
-            
-                <Button Grid.Column="0" Grid.Row="2" Text="Dances w Wolves" Clicked="DancesWolves_Clicked"/>
-                <Button Grid.Column="1" Grid.Row="2" Text="Ghost" Clicked="Ghost_Clicked"/>
-                <Button Grid.Column="2" Grid.Row="2" Text="Legend" Clicked="Legend_Clicked" />
-            
-
+                    </Grid.RowDefinitions>
+                    <Image Grid.Column="0" Grid.Row="0"  Source="IdentityThief.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="0" Grid.Row="2" FontSize="Micro" Text="Identity Theief" Clicked="IdentityTheif_Handled"/>
                     
-        </Grid>
+                    <Image Grid.Column="1" Grid.Row="0"  Source="IronMan3.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="1" Grid.Row="2"   FontSize="Micro" Text="Iron Man 3" Clicked="IronMan3_Clicked"/>
+                    
+                    <Image Grid.Column="2" Grid.Row="0"  Source="Mummy.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="2" Grid.Row="2"  FontSize="Micro" Text="The Mummy" Clicked="Mummy_Clicked" />
 
-    <Label Text="Points: "/>
-    <Label x:Name="lblPoints"/>
-   <Button Text="Submit and goto Music Page" x:Name="btnGoToMusicPage" Clicked="Handle_Clicked"/>
+
+                    <Image Grid.Column="0" Grid.Row="3"  Source="VanillaSky.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="0" Grid.Row="5" FontSize="Micro" Text="Vanilla Sky" Clicked="VanillaSky_Clicked"/>
+
+                    <Image Grid.Column="1" Grid.Row="3"  Source="OldSchool.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="1" Grid.Row="5" FontSize="Micro" Text="Old School" Clicked="OldSchool_Clicked"/>
+
+                    <Image Grid.Column="2" Grid.Row="3"  Source="Matrix.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="2" Grid.Row="5" FontSize="Micro" Text="The Matrix" Clicked="Matrix_Clicked" />
+
+                    <Image Grid.Column="0" Grid.Row="6"  Source="DancesWolves.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="0" Grid.Row="8" FontSize="Micro" Text="Dances w Wolves" Clicked="DancesWolves_Clicked"/>
+
+                    <Image Grid.Column="1" Grid.Row="6"  Source="Ghost.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="1" Grid.Row="8" FontSize="Micro" Text="Ghost" Clicked="Ghost_Clicked"/>
+                       
+                    <Image Grid.Column="2" Grid.Row="6"  Source="Legend.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="2" Grid.Row="8" FontSize="Micro" Text="Legend" Clicked="Legend_Clicked" />
 
 
-            </StackLayout> 
-  </ScrollView>
-	</ContentPage.Content>
+
+                </Grid>
+
+                <Label Text="Points: "/>
+                <Label x:Name="lblPoints"/>
+                <Button Text="Submit and goto Music Page" x:Name="btnGoToMusicPage" Clicked="Handle_Clicked"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

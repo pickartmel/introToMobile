@@ -6,29 +6,48 @@
                 <Label Text="Tap the Music you have heard"/>
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/> <!-- 0 -->
+                        <ColumnDefinition Width="*"/><!-- 0 -->
                         <ColumnDefinition Width="*"/><!-- 1 -->
                         <ColumnDefinition Width="*"/><!-- 2 -->
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/> <!-- 0 -->
-                        <RowDefinition Height="*"/><!-- 1 -->
-                        <RowDefinition Height="*"/><!-- 2 -->
+                        <RowDefinition Height="134"/> <!-- 0 -->
+                        <RowDefinition Height="0"/> <!-- 1 -->
+                        <RowDefinition Height="*"/> <!-- 2 -->
+                        <RowDefinition Height="134"/> <!-- 3 -->
+                        <RowDefinition Height="0"/><!-- 4 -->
+                        <RowDefinition Height="*"/><!-- 5 -->
+                        <RowDefinition Height="134"/> <!-- 6 -->
+                        <RowDefinition Height="0"/><!-- 7 -->
+                        <RowDefinition Height="*"/> <!-- 8 -->
                     </Grid.RowDefinitions>
 
-                    <Button Grid.Column="0" Grid.Row="0"  Text="When Im Gone" Clicked="WhenImGone_Handled"/>
+                    <Image Grid.Column="0" Grid.Row="0"  Source="ImGone.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="0" Grid.Row="2" FontSize="Micro" Text="When Im Gone" Clicked="WhenImGone_Handled"/>
 
+                    <Image Grid.Column="1" Grid.Row="0"  Source="CarryOn.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="1" Grid.Row="2"   FontSize="Micro" Text="Carry On" Clicked="CarryOn_Clicked"/>
 
-                    <Button Grid.Column="1" Grid.Row="0"  Text="Carry On" Clicked="CarryOn_Clicked"/>
-                    <Button Grid.Column="2" Grid.Row="0" Text="Sail" Clicked="Sail_Clicked" />
+                    <Image Grid.Column="2" Grid.Row="0"  Source="SAIL.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="2" Grid.Row="2"  FontSize="Micro" Text="Sail" Clicked="Sail_Clicked"/>
 
-                    <Button Grid.Column="0" Grid.Row="1" Text="Ignition" Clicked="Ignition_Clicked"/>
-                    <Button Grid.Column="1" Grid.Row="1" Text="Bring Me To Life" Clicked="BringMeToLife_Clicked"/>
-                    <Button Grid.Column="2" Grid.Row="1" Text="Stacys Mom" Clicked="StacysMom_Clicked" />
+                    <Image Grid.Column="0" Grid.Row="3"  Source="Ignition.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="0" Grid.Row="5" FontSize="Micro" Text="Ignition" Clicked="Ignition_Clicked"/>
 
-                    <Button Grid.Column="0" Grid.Row="2" Text="Step By Step" Clicked="StepByStep_Clicked"/>
-                    <Button Grid.Column="1" Grid.Row="2" Text="Nothing Compares 2 U" Clicked="NothingCompares2U_Clicked"/>
-                    <Button Grid.Column="2" Grid.Row="2" Text="How am I Supposed to Live Witout You" Clicked="LiveWOYou_Clicked" />
+                    <Image Grid.Column="1" Grid.Row="3"  Source="BringMeToLife.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="1" Grid.Row="5" FontSize="Micro" Text="Bring Me To Life" Clicked="BringMeToLife_Clicked"/>
+
+                    <Image Grid.Column="2" Grid.Row="3"  Source="StacysMom.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="2" Grid.Row="5" FontSize="Micro" Text="Stacys Mom"  Clicked="StacysMom_Clicked" />
+
+                    <Image Grid.Column="0" Grid.Row="6"  Source="StepByStep.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="0" Grid.Row="8" FontSize="Micro" Text="Step By Step"  Clicked="StepByStep_Clicked"/>
+
+                    <Image Grid.Column="1" Grid.Row="6"  Source="NothingCompares.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="1" Grid.Row="8" FontSize="Micro" Text="Nothing Compares 2 U" Clicked="NothingCompares2U_Clicked"/>
+
+                    <Image Grid.Column="2" Grid.Row="6"  Source="HowAmI.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Button Grid.Column="2" Grid.Row="8" FontSize="Micro" Text="Live Without You" Clicked="LiveWOYou_Clicked"  />
 
 
 
